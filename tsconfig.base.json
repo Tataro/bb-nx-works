@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@bb-nx-works/products": ["libs/products/src/index.ts"]
+      "@bb-nx-works/orders": ["libs/orders/src/index.ts"],
+      "@bb-nx-works/products": ["libs/products/src/index.ts"],
+      "@bb-nx-works/shared-ui": ["libs/shared/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
